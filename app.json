@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "WOOM",
+    "slug": "woom-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "woom",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.woom.mobile"
+    },
+    "android": {
+      "package": "app.woom.mobile"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
